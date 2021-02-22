@@ -1,0 +1,69 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+.l-text{
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.m-text{
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.w-app{
+  width: 40%!important;
+}
+
+.pol-text {
+  font-size: 11px;
+}
+
+.bg-input{
+  background-color: rgba(225,225,221,0.99);
+}
+
+.Dropdown-control {
+  background-color: rgba(225,225,221,0.99)!important;
+}
+
+.btn-secondary {
+  border: none;
+  border-radius: 25px;
+  padding: 15px 30px 15px 30px;
+}
+
+.btn-secondary:hover {
+  background-color: red;
+}
+
+.date {
+  width: 48%;
+}
+
+.time {
+  width: 48%;
+}
+
+.moment{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
