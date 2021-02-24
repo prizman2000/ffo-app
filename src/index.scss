@@ -29,7 +29,7 @@ code {
 }
 
 .w-app{
-  width: 40%!important;
+  width: 40%;
 }
 
 .pol-text {
@@ -66,4 +66,13 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+  .w-app{
+    width: 80%;
+  }
+  .orders{
+    font-size: 8px;
+  }
 }

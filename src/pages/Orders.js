@@ -21,7 +21,7 @@ export const Orders = () => {
     })
 
     return (
-        <div className='container'>
+        <div className='container orders'>
             <table className="table">
                 <thead>
                 <tr>
